@@ -1,69 +1,149 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export BUN_INSTALL:/Users/alexanderhoffmann/\x2ebun
-SETUVAR --export PYENV_ROOT:/Users/alexanderhoffmann/\x2epyenv
+SETUVAR --export ANDROID_HOME:/Users/alexanderhoffmann/Library/Android/sdk
+SETUVAR --export EXA_LAAD_OPTIONS:\x2d\x2dall\x1e\x2d\x2dall\x1e\x2d\x2dbinary\x1e\x2d\x2donly\x2ddirs
+SETUVAR --export EXA_LAAID_OPTIONS:\x2d\x2dall\x1e\x2d\x2dall\x1e\x2d\x2dbinary\x1e\x2d\x2dicons\x1e\x2d\x2donly\x2ddirs
+SETUVAR --export EXA_LAAI_OPTIONS:\x2d\x2dall\x1e\x2d\x2dall\x1e\x2d\x2dbinary\x1e\x2d\x2dicons
+SETUVAR --export EXA_LAA_OPTIONS:\x2d\x2dall\x1e\x2d\x2dall\x1e\x2d\x2dbinary
+SETUVAR --export EXA_LAD_OPTIONS:\x2d\x2dall\x1e\x2d\x2dbinary\x1e\x2d\x2donly\x2ddirs
+SETUVAR --export EXA_LAID_OPTIONS:\x2d\x2dall\x1e\x2d\x2dbinary\x1e\x2d\x2dicons\x1e\x2d\x2donly\x2ddirs
+SETUVAR --export EXA_LAI_OPTIONS:\x2d\x2dall\x1e\x2d\x2dbinary\x1e\x2d\x2dicons
+SETUVAR --export EXA_LA_OPTIONS:\x2d\x2dall\x1e\x2d\x2dbinary
+SETUVAR --export EXA_LC_OPTIONS:\x2d\x2dacross
+SETUVAR --export EXA_LD_OPTIONS:\x2d\x2donly\x2ddirs
+SETUVAR --export EXA_LE_OPTIONS:\x2d\x2dextended\x1e\x2d\x2dlong
+SETUVAR --export EXA_LG_OPTIONS:\x2d\x2dgit\x1e\x2d\x2dgit\x2dignore\x1e\x2d\x2dlong
+SETUVAR --export EXA_LID_OPTIONS:\x2d\x2dicons
+SETUVAR --export EXA_LI_OPTIONS:\x2d\x2dicons
+SETUVAR --export EXA_LL_OPTIONS:\x2d\x2dlong
+SETUVAR --export EXA_LO_OPTIONS:\x2d\x2doneline
+SETUVAR --export EXA_LT_OPTIONS:\x2d\x2dtree\x1e\x2d\x2dlevel
+SETUVAR --export EXA_L_OPTIONS:\x1d
+SETUVAR --export EXA_STANDARD_OPTIONS:\x2d\x2dgroup\x1e\x2d\x2dheader\x1e\x2d\x2dgroup\x2ddirectories\x2dfirst
+SETUVAR --export NPM_TOKEN:444b257e\x2dfbbc\x2d4904\x2da90a\x2dff8d2973a93b
+SETUVAR TERM:\x23\x09Reconstructed\x20via\x20infocmp\x20from\x20file\x3a\x20/Applications/kitty\x2eapp/Contents/Resources/kitty/terminfo/78/xterm\x2dkitty\x1exterm\x2dkitty\x7cKovIdTTY\x2c\x1e\x09auto_right_margin\x2c\x20can_change\x2c\x20eat_newline_glitch\x2c\x1e\x09has_meta_key\x2c\x20has_status_line\x2c\x20move_insert_mode\x2c\x1e\x09move_standout_mode\x2c\x20no_pad_char\x2c\x20prtr_silent\x2c\x1e\x09columns\x2380\x2c\x20init_tabs\x238\x2c\x20lines\x2324\x2c\x20max_colors\x23256\x2c\x1e\x09max_pairs\x2332767\x2c\x1e\x09acs_chars\x3d\x2b\x2b\x5c054\x5c054\x2d\x2d\x2e\x2e00\x60\x60aaffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzz\x7b\x7b\x7c\x7c\x7d\x7d\x7e\x7e\x2c\x1e\x09back_tab\x3d\x5cE\x5bZ\x2c\x20bell\x3d\x5eG\x2c\x20carriage_return\x3d\x5eM\x2c\x1e\x09change_scroll_region\x3d\x5cE\x5b\x25i\x25p1\x25d\x3b\x25p2\x25dr\x2c\x1e\x09clear_all_tabs\x3d\x5cE\x5b3g\x2c\x20clear_screen\x3d\x5cE\x5bH\x5cE\x5b2J\x2c\x1e\x09clr_bol\x3d\x5cE\x5b1K\x2c\x20clr_eol\x3d\x5cE\x5bK\x2c\x20clr_eos\x3d\x5cE\x5bJ\x2c\x1e\x09column_address\x3d\x5cE\x5b\x25i\x25p1\x25dG\x2c\x1e\x09cursor_address\x3d\x5cE\x5b\x25i\x25p1\x25d\x3b\x25p2\x25dH\x2c\x20cursor_down\x3d\x5eJ\x2c\x1e\x09cursor_home\x3d\x5cE\x5bH\x2c\x20cursor_invisible\x3d\x5cE\x5b\x3f25l\x2c\x1e\x09cursor_left\x3d\x5eH\x2c\x20cursor_normal\x3d\x5cE\x5b\x3f12h\x5cE\x5b\x3f25h\x2c\x1e\x09cursor_right\x3d\x5cE\x5bC\x2c\x20cursor_up\x3d\x5cE\x5bA\x2c\x1e\x09cursor_visible\x3d\x5cE\x5b\x3f12\x3b25h\x2c\x20delete_character\x3d\x5cE\x5bP\x2c\x1e\x09delete_line\x3d\x5cE\x5bM\x2c\x20dis_status_line\x3d\x5cE\x5d2\x3b\x5c007\x2c\x1e\x09enter_alt_charset_mode\x3d\x5cE\x280\x2c\x20enter_am_mode\x3d\x5cE\x5b\x3f7h\x2c\x1e\x09enter_bold_mode\x3d\x5cE\x5b1m\x2c\x20enter_ca_mode\x3d\x5cE\x5b\x3f1049h\x2c\x1e\x09enter_dim_mode\x3d\x5cE\x5b2m\x2c\x20enter_insert_mode\x3d\x5cE\x5b4h\x2c\x1e\x09enter_italics_mode\x3d\x5cE\x5b3m\x2c\x20enter_reverse_mode\x3d\x5cE\x5b7m\x2c\x1e\x09enter_standout_mode\x3d\x5cE\x5b7m\x2c\x1e\x09enter_underline_mode\x3d\x5cE\x5b4m\x2c\x20erase_chars\x3d\x5cE\x5b\x25p1\x25dX\x2c\x1e\x09exit_alt_charset_mode\x3d\x5cE\x28B\x2c\x20exit_am_mode\x3d\x5cE\x5b\x3f7l\x2c\x1e\x09exit_attribute_mode\x3d\x5cE\x28B\x5cE\x5bm\x2c\x20exit_ca_mode\x3d\x5cE\x5b\x3f1049l\x2c\x1e\x09exit_insert_mode\x3d\x5cE\x5b4l\x2c\x20exit_italics_mode\x3d\x5cE\x5b23m\x2c\x1e\x09exit_standout_mode\x3d\x5cE\x5b27m\x2c\x1e\x09exit_underline_mode\x3d\x5cE\x5b24m\x2c\x1e\x09flash_screen\x3d\x5cE\x5b\x3f5h\x24\x3c100/\x3e\x5cE\x5b\x3f5l\x2c\x1e\x09from_status_line\x3d\x5eG\x2c\x1e\x09initialize_color\x3d\x5cE\x5d4\x3b\x25p1\x25d\x3brgb\x5c072\x25p2\x25\x7b255\x7d\x25\x2a\x25\x7b1000\x7d\x25/\x252\x2e2X/\x25p3\x25\x7b255\x7d\x25\x2a\x25\x7b1000\x7d\x25/\x252\x2e2X/\x25p4\x25\x7b255\x7d\x25\x2a\x25\x7b1000\x7d\x25/\x252\x2e2X\x5cE\x5c\x2c\x1e\x09insert_line\x3d\x5cE\x5bL\x2c\x20key_a1\x3d\x2c\x20key_a3\x3d\x2c\x20key_backspace\x3d\x5c177\x2c\x1e\x09key_beg\x3d\x5cEOE\x2c\x20key_btab\x3d\x5cE\x5bZ\x2c\x20key_c1\x3d\x2c\x20key_c3\x3d\x2c\x1e\x09key_dc\x3d\x5cE\x5b3\x7e\x2c\x20key_down\x3d\x5cEOB\x2c\x20key_end\x3d\x5cEOF\x2c\x20key_f1\x3d\x5cEOP\x2c\x1e\x09key_f10\x3d\x5cE\x5b21\x7e\x2c\x20key_f11\x3d\x5cE\x5b23\x7e\x2c\x20key_f12\x3d\x5cE\x5b24\x7e\x2c\x1e\x09key_f13\x3d\x5cE\x5b1\x3b2P\x2c\x20key_f14\x3d\x5cE\x5b1\x3b2Q\x2c\x20key_f15\x3d\x5cE\x5b1\x3b2R\x2c\x1e\x09key_f16\x3d\x5cE\x5b1\x3b2S\x2c\x20key_f17\x3d\x5cE\x5b15\x3b2\x7e\x2c\x20key_f18\x3d\x5cE\x5b17\x3b2\x7e\x2c\x1e\x09key_f19\x3d\x5cE\x5b18\x3b2\x7e\x2c\x20key_f2\x3d\x5cEOQ\x2c\x20key_f20\x3d\x5cE\x5b19\x3b2\x7e\x2c\x1e\x09key_f21\x3d\x5cE\x5b20\x3b2\x7e\x2c\x20key_f22\x3d\x5cE\x5b21\x3b2\x7e\x2c\x20key_f23\x3d\x5cE\x5b23\x3b2\x7e\x2c\x1e\x09key_f24\x3d\x5cE\x5b24\x3b2\x7e\x2c\x20key_f25\x3d\x5cE\x5b1\x3b5P\x2c\x20key_f26\x3d\x5cE\x5b1\x3b5Q\x2c\x1e\x09key_f27\x3d\x5cE\x5b1\x3b5R\x2c\x20key_f28\x3d\x5cE\x5b1\x3b5S\x2c\x20key_f29\x3d\x5cE\x5b15\x3b5\x7e\x2c\x1e\x09key_f3\x3d\x5cEOR\x2c\x20key_f30\x3d\x5cE\x5b17\x3b5\x7e\x2c\x20key_f31\x3d\x5cE\x5b18\x3b5\x7e\x2c\x1e\x09key_f32\x3d\x5cE\x5b19\x3b5\x7e\x2c\x20key_f33\x3d\x5cE\x5b20\x3b5\x7e\x2c\x20key_f34\x3d\x5cE\x5b21\x3b5\x7e\x2c\x1e\x09key_f35\x3d\x5cE\x5b23\x3b5\x7e\x2c\x20key_f36\x3d\x5cE\x5b24\x3b5\x7e\x2c\x20key_f37\x3d\x5cE\x5b1\x3b6P\x2c\x1e\x09key_f38\x3d\x5cE\x5b1\x3b6Q\x2c\x20key_f39\x3d\x5cE\x5b1\x3b6R\x2c\x20key_f4\x3d\x5cEOS\x2c\x1e\x09key_f40\x3d\x5cE\x5b1\x3b6S\x2c\x20key_f41\x3d\x5cE\x5b15\x3b6\x7e\x2c\x20key_f42\x3d\x5cE\x5b17\x3b6\x7e\x2c\x1e\x09key_f43\x3d\x5cE\x5b18\x3b6\x7e\x2c\x20key_f44\x3d\x5cE\x5b19\x3b6\x7e\x2c\x20key_f45\x3d\x5cE\x5b20\x3b6\x7e\x2c\x1e\x09key_f46\x3d\x5cE\x5b21\x3b6\x7e\x2c\x20key_f47\x3d\x5cE\x5b23\x3b6\x7e\x2c\x20key_f48\x3d\x5cE\x5b24\x3b6\x7e\x2c\x1e\x09key_f49\x3d\x5cE\x5b1\x3b3P\x2c\x20key_f5\x3d\x5cE\x5b15\x7e\x2c\x20key_f50\x3d\x5cE\x5b1\x3b3Q\x2c\x1e\x09key_f51\x3d\x5cE\x5b1\x3b3R\x2c\x20key_f52\x3d\x5cE\x5b1\x3b3S\x2c\x20key_f53\x3d\x5cE\x5b15\x3b3\x7e\x2c\x1e\x09key_f54\x3d\x5cE\x5b17\x3b3\x7e\x2c\x20key_f55\x3d\x5cE\x5b18\x3b3\x7e\x2c\x20key_f56\x3d\x5cE\x5b19\x3b3\x7e\x2c\x1e\x09key_f57\x3d\x5cE\x5b20\x3b3\x7e\x2c\x20key_f58\x3d\x5cE\x5b21\x3b3\x7e\x2c\x20key_f59\x3d\x5cE\x5b23\x3b3\x7e\x2c\x1e\x09key_f6\x3d\x5cE\x5b17\x7e\x2c\x20key_f60\x3d\x5cE\x5b24\x3b3\x7e\x2c\x20key_f61\x3d\x5cE\x5b1\x3b4P\x2c\x1e\x09key_f62\x3d\x5cE\x5b1\x3b4Q\x2c\x20key_f63\x3d\x5cE\x5b1\x3b4R\x2c\x20key_f7\x3d\x5cE\x5b18\x7e\x2c\x1e\x09key_f8\x3d\x5cE\x5b19\x7e\x2c\x20key_f9\x3d\x5cE\x5b20\x7e\x2c\x20key_help\x3d\x2c\x20key_home\x3d\x5cEOH\x2c\x1e\x09key_ic\x3d\x5cE\x5b2\x7e\x2c\x20key_left\x3d\x5cEOD\x2c\x20key_mouse\x3d\x5cE\x5bM\x2c\x1e\x09key_npage\x3d\x5cE\x5b6\x7e\x2c\x20key_ppage\x3d\x5cE\x5b5\x7e\x2c\x20key_right\x3d\x5cEOC\x2c\x1e\x09key_sbeg\x3d\x5cE\x5b1\x3b2E\x2c\x20key_sdc\x3d\x5cE\x5b3\x3b2\x7e\x2c\x20key_send\x3d\x5cE\x5b1\x3b2F\x2c\x1e\x09key_sf\x3d\x5cE\x5b1\x3b2B\x2c\x20key_shome\x3d\x5cE\x5b1\x3b2H\x2c\x20key_sic\x3d\x5cE\x5b2\x3b2\x7e\x2c\x1e\x09key_sleft\x3d\x5cE\x5b1\x3b2D\x2c\x20key_snext\x3d\x5cE\x5b6\x3b2\x7e\x2c\x1e\x09key_sprevious\x3d\x5cE\x5b5\x3b2\x7e\x2c\x20key_sr\x3d\x5cE\x5b1\x3b2A\x2c\x1e\x09key_sright\x3d\x5cE\x5b1\x3b2C\x2c\x20key_undo\x3d\x2c\x20key_up\x3d\x5cEOA\x2c\x1e\x09keypad_local\x3d\x5cE\x5b\x3f1l\x2c\x20keypad_xmit\x3d\x5cE\x5b\x3f1h\x2c\x1e\x09orig_colors\x3d\x5cE\x5d104\x5c007\x2c\x20orig_pair\x3d\x5cE\x5b39\x3b49m\x2c\x1e\x09parm_dch\x3d\x5cE\x5b\x25p1\x25dP\x2c\x20parm_delete_line\x3d\x5cE\x5b\x25p1\x25dM\x2c\x1e\x09parm_down_cursor\x3d\x5cE\x5b\x25p1\x25dB\x2c\x20parm_ich\x3d\x5cE\x5b\x25p1\x25d\x40\x2c\x1e\x09parm_index\x3d\x5cE\x5b\x25p1\x25dS\x2c\x20parm_insert_line\x3d\x5cE\x5b\x25p1\x25dL\x2c\x1e\x09parm_left_cursor\x3d\x5cE\x5b\x25p1\x25dD\x2c\x1e\x09parm_right_cursor\x3d\x5cE\x5b\x25p1\x25dC\x2c\x20parm_rindex\x3d\x5cE\x5b\x25p1\x25dT\x2c\x1e\x09parm_up_cursor\x3d\x5cE\x5b\x25p1\x25dA\x2c\x1e\x09repeat_char\x3d\x25p1\x25c\x5cE\x5b\x25p2\x25\x7b1\x7d\x25\x2d\x25db\x2c\x1e\x09reset_1string\x3d\x5cE\x5d\x5cE\x5c\x5cEc\x2c\x20restore_cursor\x3d\x5cE8\x2c\x1e\x09row_address\x3d\x5cE\x5b\x25i\x25p1\x25dd\x2c\x20save_cursor\x3d\x5cE7\x2c\x1e\x09scroll_forward\x3d\x5eJ\x2c\x20scroll_reverse\x3d\x5cEM\x2c\x1e\x09set_a_background\x3d\x5cE\x5b\x25\x3f\x25p1\x25\x7b8\x7d\x25\x3c\x25t4\x25p1\x25d\x25e\x25p1\x25\x7b16\x7d\x25\x3c\x25t10\x25p1\x25\x7b8\x7d\x25\x2d\x25d\x25e48\x3b5\x3b\x25p1\x25d\x25\x3bm\x2c\x1e\x09set_a_foreground\x3d\x5cE\x5b\x25\x3f\x25p1\x25\x7b8\x7d\x25\x3c\x25t3\x25p1\x25d\x25e\x25p1\x25\x7b16\x7d\x25\x3c\x25t9\x25p1\x25\x7b8\x7d\x25\x2d\x25d\x25e38\x3b5\x3b\x25p1\x25d\x25\x3bm\x2c\x1e\x09set_attributes\x3d\x25\x3f\x25p9\x25t\x5cE\x280\x25e\x5cE\x28B\x25\x3b\x5cE\x5b0\x25\x3f\x25p6\x25t\x3b1\x25\x3b\x25\x3f\x25p2\x25t\x3b4\x25\x3b\x25\x3f\x25p1\x25p3\x25\x7c\x25t\x3b7\x25\x3b\x25\x3f\x25p4\x25t\x3b5\x25\x3b\x25\x3f\x25p7\x25t\x3b8\x25\x3bm\x2c\x1e\x09set_tab\x3d\x5cEH\x2c\x20tab\x3d\x5eI\x2c\x20to_status_line\x3d\x5cE\x5d2\x3b\x2c\x1e\x09user6\x3d\x5cE\x5b\x25i\x25d\x3b\x25dR\x2c\x20user7\x3d\x5cE\x5b6n\x2c\x1e\x09user8\x3d\x5cE\x5b\x3f\x25\x5b\x3b0123456789\x5dc\x2c\x20user9\x3d\x5cE\x5bc\x2c
 SETUVAR ZO_CMD:zo
 SETUVAR Z_CMD:z
 SETUVAR Z_DATA:/Users/alexanderhoffmann/\x2elocal/share/z/data
 SETUVAR Z_DATA_DIR:/Users/alexanderhoffmann/\x2elocal/share/z
 SETUVAR Z_EXCLUDE:\x5e/Users/alexanderhoffmann\x24
-SETUVAR __done_min_cmd_duration:5000
-SETUVAR __done_notify_sound:1
+SETUVAR --export __FISH_EXA_ALIASES:l\x1ela\x1eld\x1eli\x1elid\x1elaa\x1elad\x1elai\x1elaid\x1elaad\x1elaai\x1elaaid\x1ell\x1ella\x1elld\x1elli\x1ellid\x1ellaa\x1ellad\x1ellai\x1ellaid\x1ellaad\x1ellaai\x1ellaaid\x1elg\x1elga\x1elgd\x1elgi\x1elgid\x1elgaa\x1elgad\x1elgai\x1elgaid\x1elgaad\x1elgaai\x1elgaaid\x1ele\x1elea\x1eled\x1elei\x1eleid\x1eleaa\x1elead\x1eleai\x1eleaid\x1eleaad\x1eleaai\x1eleaaid\x1elt\x1elta\x1eltd\x1elti\x1eltid\x1eltad\x1eltai\x1eltaid\x1eltaad\x1eltaai\x1eltaaid\x1elc\x1elca\x1elcd\x1elci\x1elcid\x1elcaa\x1elcad\x1elcai\x1elcaid\x1elcaad\x1elcaai\x1elcaaid\x1elo\x1eloa\x1elod\x1eloi\x1eloid\x1eloaa\x1eload\x1eloai\x1eloaid\x1eloaad\x1eloaai\x1eloaaid
+SETUVAR --export __FISH_EXA_BASE_ALIASES:l\x1ell\x1elg\x1ele\x1elt\x1elc\x1elo
+SETUVAR --export __FISH_EXA_EXPANDED:a\x1ed\x1ei\x1eid\x1eaa\x1ead\x1eai\x1eaid\x1eaad\x1eaai\x1eaaid
+SETUVAR --export __FISH_EXA_EXPANDED_OPT_NAME:LA\x1eLD\x1eLI\x1eLID\x1eLAA\x1eLAD\x1eLAI\x1eLAID\x1eLAAD\x1eLAAI\x1eLAAID
+SETUVAR --export __FISH_EXA_OPT_NAMES:EXA_L_OPTIONS\x1eEXA_LA_OPTIONS\x1eEXA_LD_OPTIONS\x1eEXA_LI_OPTIONS\x1eEXA_LID_OPTIONS\x1eEXA_LAA_OPTIONS\x1eEXA_LAD_OPTIONS\x1eEXA_LAI_OPTIONS\x1eEXA_LAID_OPTIONS\x1eEXA_LAAD_OPTIONS\x1eEXA_LAAI_OPTIONS\x1eEXA_LAAID_OPTIONS\x1eEXA_LL_OPTIONS\x1eEXA_LG_OPTIONS\x1eEXA_LE_OPTIONS\x1eEXA_LT_OPTIONS\x1eEXA_LC_OPTIONS\x1eEXA_LO_OPTIONS
+SETUVAR --export __FISH_EXA_SORT_OPTIONS:name\x1e\x2ename\x1esize\x1eext\x1emod\x1eold\x1eacc\x1ecr\x1einode
 SETUVAR __fish_initialized:3400
-SETUVAR _fisher_decors_2F_fish_2D_ghq_files:/Users/alexanderhoffmann/\x2econfig/fish/functions/__ghq_repository_search\x2efish\x1e/Users/alexanderhoffmann/\x2econfig/fish/conf\x2ed/ghq_key_bindings\x2efish\x1e/Users/alexanderhoffmann/\x2econfig/fish/completions/ghq\x2efish
-SETUVAR _fisher_franciscolourenco_2F_done_files:/Users/alexanderhoffmann/\x2econfig/fish/conf\x2ed/done\x2efish
-SETUVAR _fisher_jethrokuan_2F_z_files:/Users/alexanderhoffmann/\x2econfig/fish/functions/__z\x2efish\x1e/Users/alexanderhoffmann/\x2econfig/fish/functions/__z_add\x2efish\x1e/Users/alexanderhoffmann/\x2econfig/fish/functions/__z_clean\x2efish\x1e/Users/alexanderhoffmann/\x2econfig/fish/functions/__z_complete\x2efish\x1e/Users/alexanderhoffmann/\x2econfig/fish/conf\x2ed/z\x2efish
-SETUVAR _fisher_jorgebucaran_2F_fisher_files:/Users/alexanderhoffmann/\x2econfig/fish/functions/fisher\x2efish\x1e/Users/alexanderhoffmann/\x2econfig/fish/completions/fisher\x2efish
-SETUVAR _fisher_jorgebucaran_2F_hydro_files:/Users/alexanderhoffmann/\x2econfig/fish/functions/fish_mode_prompt\x2efish\x1e/Users/alexanderhoffmann/\x2econfig/fish/functions/fish_prompt\x2efish\x1e/Users/alexanderhoffmann/\x2econfig/fish/functions/fish_title\x2efish\x1e/Users/alexanderhoffmann/\x2econfig/fish/conf\x2ed/hydro\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejorgebucaran/hydro\x1efranciscolourenco/done\x1ejethrokuan/z\x1edecors/fish\x2dghq
-SETUVAR _hydro_git_13473:develop\u2022\x20
-SETUVAR _hydro_git_14329:\x1d
-SETUVAR _hydro_git_163:ath\x2eWU\x2d1338\x2einfo\x2etext\u2022\x20
-SETUVAR _hydro_git_18828:main\u2022\x20
-SETUVAR _hydro_git_1905:main\u2022\x20\u21911\x20
-SETUVAR _hydro_git_35509:main\u2022\x20
-SETUVAR _hydro_git_4894:develop\u2022\x20
-SETUVAR _hydro_git_52560:ath\x2eWU\x2d1285\x2dlokale\x2dvorschlge\x2dwerden\x2dhochgela\u2022\x20
-SETUVAR _hydro_git_53474:develop\x20
-SETUVAR _hydro_git_550:master\x20
-SETUVAR _hydro_git_5982:develop\u2022\x20
-SETUVAR _hydro_git_5986:develop\u2022\x20
-SETUVAR _hydro_git_62238:develop\u2022\x20
-SETUVAR _hydro_git_6275:develop\u2022\x20
-SETUVAR _hydro_git_63477:develop\u2022\x20
-SETUVAR _hydro_git_6357:ath\x2eWU\x2d1001\x2epatient\x2danlegen\x2dbeide\x2dtabs\x2danbie\u2022\x20
-SETUVAR _hydro_git_66382:ath\x2eWU\x2d441\x2erework\x2dpatient\x2dheader\u2022\x20
-SETUVAR _hydro_git_67913:develop\u2022\x20
-SETUVAR _hydro_git_7222:ath\x2eWU\x2d1001\x2epatient\x2danlegen\x2dbeide\x2dtabs\x2danbie\u2022\x20
-SETUVAR _hydro_git_73227:ath\x2eWU\x2d1338\x2einfo\x2etext\u2022\x20
-SETUVAR _hydro_git_77474:develop\u2022\x20
-SETUVAR _hydro_git_79079:\x1d
-SETUVAR _hydro_git_8079:develop\u2022\x20
-SETUVAR _hydro_git_85231:ath\x2eWU\x2d1369\x2emulti\x2dselect\x2drecomm\x2dissues\x20
-SETUVAR _hydro_git_86005:develop\u2022\x20
-SETUVAR _hydro_git_88879:ath\x2eWU\x2d1369\x2emulti\x2dselect\x2drecomm\x2dissues\x20
-SETUVAR _hydro_git_90178:ath\x2eWU\x2d1369\x2emulti\x2dselect\x2drecomm\x2dissues\x20
-SETUVAR _hydro_git_99564:ath\x2eWU\x2d1369\x2emulti\x2dselect\x2drecomm\x2dissues\u2022\x20
-SETUVAR fish_color_autosuggestion:ff0087
+SETUVAR _fisher_franciscolourenco_2F_done_files:\x7e/\x2econfig/fish/conf\x2ed/done\x2efish
+SETUVAR _fisher_gazorby_2F_fish_2D_exa_files:\x7e/\x2econfig/fish/functions/exa_git\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/fish\x2dexa\x2efish
+SETUVAR _fisher_jethrokuan_2F_z_files:\x7e/\x2econfig/fish/functions/__z\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_add\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_clean\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_complete\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/z\x2efish
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_jorgebucaran_2F_hydro_files:\x7e/\x2econfig/fish/functions/fish_mode_prompt\x2efish\x1e\x7e/\x2econfig/fish/functions/fish_prompt\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/hydro\x2efish
+SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:\x7e/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_list\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e\x7e/\x2econfig/fish/functions/nvm\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e\x7e/\x2econfig/fish/completions/nvm\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejorgebucaran/hydro\x1ejethrokuan/z\x1ejorgebucaran/nvm\x2efish\x1efranciscolourenco/done\x1egazorby/fish\x2dexa
+SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR _hydro_git_1098:main\x20
+SETUVAR _hydro_git_11403:ath\x2erefactor\x20
+SETUVAR _hydro_git_13107:ath\x2erefactor\x20
+SETUVAR _hydro_git_13610:ath\x2erefactor\x20
+SETUVAR _hydro_git_14282:ath\x2enavigation\x20
+SETUVAR _hydro_git_1553:main\u2022\x20
+SETUVAR _hydro_git_18596:ath\x2eWU\x2d1462\x2elogout\x2dhandler\u2022\x20
+SETUVAR _hydro_git_18747:dev\u2022\x20
+SETUVAR _hydro_git_1914:ath\x2erefactor\x20
+SETUVAR _hydro_git_20027:ath\x2ewounds\u2022\x20
+SETUVAR _hydro_git_21038:develop\u2022\x20
+SETUVAR _hydro_git_21947:ath\x2erepo\x2drework\x20
+SETUVAR _hydro_git_22518:ath\x2enavigation\u2022\x20
+SETUVAR _hydro_git_2383:ath\x2eaddpatient\x2don\x2dexternal\u2022\x20
+SETUVAR _hydro_git_24622:develop\x20\u21911\x20
+SETUVAR _hydro_git_29203:pha\x2efrontend\x2dpatientScreen\u2022\x20
+SETUVAR _hydro_git_33611:dev\u2022\x20
+SETUVAR _hydro_git_33632:ath\x2eWUX\x2d478\x2ewrong\x2dkeyboard\u2022\x20
+SETUVAR _hydro_git_33941:\x40ff4a6e1\u2022\x20
+SETUVAR _hydro_git_34042:main\u2022\x20\u21911\x20
+SETUVAR _hydro_git_34207:main\u2022\x20
+SETUVAR _hydro_git_34916:setup\x2dapi\x2dclient\u2022\x20
+SETUVAR _hydro_git_35709:ath\x2erefactor\u2022\x20
+SETUVAR _hydro_git_36127:dev\u2022\x20
+SETUVAR _hydro_git_36990:ath\x2erefactor\u2022\x20
+SETUVAR _hydro_git_36991:ath\x2erefactor\u2022\x20
+SETUVAR _hydro_git_38659:ath\x2erefactor\u2022\x20
+SETUVAR _hydro_git_38776:ath\x2erefactor\u2022\x20
+SETUVAR _hydro_git_38777:ath\x2erefactor\u2022\x20
+SETUVAR _hydro_git_39127:main\x20
+SETUVAR _hydro_git_39862:ath\x2ewounds\x20
+SETUVAR _hydro_git_41008:ath\x2emono\x2dfrontend\u2022\x20
+SETUVAR _hydro_git_41581:main\u2022\x20
+SETUVAR _hydro_git_41964:msk\x2e20\x2elogrocket\u2022\x20
+SETUVAR _hydro_git_4272:ath\x2erefactor\x20
+SETUVAR _hydro_git_42734:main\u2022\x20
+SETUVAR _hydro_git_4299:ath\x2erefactor\u2022\x20
+SETUVAR _hydro_git_44412:mwe\x2e2\x2eappium\x2de2e\x2dtest\x20
+SETUVAR _hydro_git_46527:msk\x2e20\x2elogrocket\u2022\x20
+SETUVAR _hydro_git_47088:ath\x2eacceptance\u2022\x20
+SETUVAR _hydro_git_49885:ath\x2erefactor\u2022\x20
+SETUVAR _hydro_git_5009:ath\x2eaddPatient\x2dform\x2dchanges\u2022\x20
+SETUVAR _hydro_git_50493:ath\x2epha\x2eWU\x2d1476\x2eavoid\x2dkeyboard\u2022\x20
+SETUVAR _hydro_git_50582:ath\x2erepo\x2drework\u2022\x20\u21911\x20
+SETUVAR _hydro_git_51168:assessment\x2dpopup\u2022\x20
+SETUVAR _hydro_git_52703:main\x20\u21931\x20
+SETUVAR _hydro_git_55062:main\u2022\x20
+SETUVAR _hydro_git_56945:ath\x2e767\x2edeactivate\x2dpin\x2dafter\x2dlogin\x20
+SETUVAR _hydro_git_5945:master\u2022\x20
+SETUVAR _hydro_git_59689:ath\x2erefactor\u2022\x20
+SETUVAR _hydro_git_64767:ath\x20
+SETUVAR _hydro_git_6510:mca\x2eWU\x2d1205\x2epersist\x2efilter\x2esettings\u2022\x20
+SETUVAR _hydro_git_71133:dev\u2022\x20
+SETUVAR _hydro_git_7272:ath\x2enavigation\u2022\x20
+SETUVAR _hydro_git_73443:ath\x2eWU\x2d461\x2echange\x2dphone\x2dvalidator\u2022\x20
+SETUVAR _hydro_git_75569:ath\x2eauth\x2dand\x2dnavigation\u2022\x20
+SETUVAR _hydro_git_77148:msk\x2e464\x2eenable\x2dadmin\x2drights\u2022\x20
+SETUVAR _hydro_git_78634:ath\x2eWU\x2d1479\x2eexternals\x2droutes\u2022\x20
+SETUVAR _hydro_git_78780:ath\x2estore\x2dsync\u2022\x20
+SETUVAR _hydro_git_79193:main\x20
+SETUVAR _hydro_git_80721:ath\x2erefactor\u2022\x20
+SETUVAR _hydro_git_81363:dev\u2022\x20
+SETUVAR _hydro_git_8229:develop\u2022\x20
+SETUVAR _hydro_git_82758:develop\x20
+SETUVAR _hydro_git_8497:ath\x2enavigation\u2022\x20
+SETUVAR _hydro_git_85232:ath\x2eturbo\x2dsetup\u2022\x20
+SETUVAR _hydro_git_86007:main\u2022\x20
+SETUVAR _hydro_git_87124:ath\x2epha\x2eWU\x2d1476\x2eavoid\x2dkeyboard\u2022\x20
+SETUVAR _hydro_git_87131:ath\x2epha\x2eWU\x2d1476\x2eavoid\x2dkeyboard\u2022\x20
+SETUVAR _hydro_git_87514:main\x20
+SETUVAR _hydro_git_8783:ath\x2enavigation\x20
+SETUVAR _hydro_git_88683:ath\x2epha\x2eWU\x2d1476\x2eavoid\x2dkeyboard\u2022\x20
+SETUVAR _hydro_git_8897:tour\x2dscroll\x20
+SETUVAR _hydro_git_9138:pha\x2efrontend\x2dpatientScreen\u2022\x20
+SETUVAR _hydro_git_91819:ath\x2erefactor\u2022\x20
+SETUVAR _hydro_git_93279:develop\u2022\x20
+SETUVAR _hydro_git_93538:ath\x2enavigation\u2022\x20
+SETUVAR _hydro_git_93771:ath\x2erefactor\u2022\x20
+SETUVAR _hydro_git_94286:ath\x2eauth\x2dand\x2dnavigation\u2022\x20
+SETUVAR _hydro_git_9836:dev\u2022\x20\u21937\x20
+SETUVAR _hydro_git_98455:ath\x2emobile\u2022\x20
+SETUVAR fish_color_autosuggestion:4c566a
 SETUVAR fish_color_cancel:\x2d\x2dreverse
-SETUVAR fish_color_command:00d75f
-SETUVAR fish_color_comment:ff87d7
+SETUVAR fish_color_command:81a1c1
+SETUVAR fish_color_comment:434c5e
 SETUVAR fish_color_cwd:green
 SETUVAR fish_color_cwd_root:red
-SETUVAR fish_color_end:5fffd7
-SETUVAR fish_color_error:ffff5f
-SETUVAR fish_color_escape:brcyan
+SETUVAR fish_color_end:88c0d0
+SETUVAR fish_color_error:ebcb8b
+SETUVAR fish_color_escape:00a6b2
 SETUVAR fish_color_history_current:\x2d\x2dbold
 SETUVAR fish_color_host:normal
 SETUVAR fish_color_host_remote:\x1d
 SETUVAR fish_color_keyword:\x1d
+SETUVAR fish_color_match:\x2d\x2dbackground\x3dbrblue
 SETUVAR fish_color_normal:normal
-SETUVAR fish_color_operator:brcyan
+SETUVAR fish_color_operator:00a6b2
 SETUVAR fish_color_option:\x1d
-SETUVAR fish_color_param:d7ffaf
-SETUVAR fish_color_quote:ff5f87
-SETUVAR fish_color_redirection:cyan\x1e\x2d\x2dbold
-SETUVAR fish_color_search_match:\x2d\x2dbackground\x3d111
+SETUVAR fish_color_param:eceff4
+SETUVAR fish_color_quote:a3be8c
+SETUVAR fish_color_redirection:b48ead
+SETUVAR fish_color_search_match:bryellow\x1e\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_color_status:red
 SETUVAR fish_color_user:brgreen
@@ -71,15 +151,18 @@ SETUVAR fish_color_valid_path:\x2d\x2dunderline
 SETUVAR fish_key_bindings:fish_default_key_bindings
 SETUVAR fish_pager_color_background:\x1d
 SETUVAR fish_pager_color_completion:normal
-SETUVAR fish_pager_color_description:B3A06D\x1e\x2d\x2ditalics
-SETUVAR fish_pager_color_prefix:cyan\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
+SETUVAR fish_pager_color_description:B3A06D
+SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_secondary_background:\x1d
 SETUVAR fish_pager_color_secondary_completion:\x1d
 SETUVAR fish_pager_color_secondary_description:\x1d
 SETUVAR fish_pager_color_secondary_prefix:\x1d
-SETUVAR fish_pager_color_selected_background:\x2d\x2dreverse
+SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
-SETUVAR fish_user_paths:/Users/alexanderhoffmann/\x2epyenv/bin\x1e/Users/alexanderhoffmann/Library/Python/3\x2e8/bin\x1e/opt/homebrew/bin
+SETUVAR fish_user_paths:/Users/alexanderhoffmann/node/bin\x3a/Library/Frameworks/Python\x2eframework/Versions/3\x2e10/bin\x1e/Users/alexanderhoffmann/node/bin\x3a/usr/local/Cellar/mtr/0\x2e87/sbin\x1e/Users/alexanderhoffmann/node/bin\x3a/opt/homebrew/bin\x1e/Users/alexanderhoffmann/node/bin\x3a/usr/local/bin\x1e/Users/alexanderhoffmann/node/bin\x3a/usr/bin\x1e/Users/alexanderhoffmann/node/bin\x3a/bin\x1e/Users/alexanderhoffmann/node/bin\x3a/usr/sbin\x1e/Users/alexanderhoffmann/node/bin\x3a/sbin\x1e/Users/alexanderhoffmann/node/bin\x3a/Library/Apple/usr/bin\x1e/Users/alexanderhoffmann/node/bin\x3a/Applications/kitty\x2eapp/Contents/MacOS\x1e/opt/homebrew/bin
+SETUVAR nvm_data:/Users/alexanderhoffmann/\x2elocal/share/nvm
+SETUVAR nvm_default_version:lts/gallium
+SETUVAR nvm_mirror:https\x3a//nodejs\x2eorg/dist
